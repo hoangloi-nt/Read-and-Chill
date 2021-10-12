@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/shortcut icon.png">
+    <title>Read & Chill</title>
+    <meta name="description" content="Trang web vừa đọc sách vừa nghe nhạc trực tuyến...">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="navbar">
+                <div class="header_logo">
+                    <a href="/" class="header_logo-link">
+                        <img src="./assets/img/logo.png" alt="Logo" class="header_logo-img">
+                    </a>
+                </div>
+
+                <div class="header_search">
+                    <div class="header_search-input-wrap">
+                        <input type="text" name="" id="" class="header_search-input" placeholder="Bạn muốn tìm kiếm điều gì?">
+                        <div class="header_search-history">
+                            <h3 class="header_search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header_search-history-list">
+                                <li class="header_search-history-item">
+                                    <a href="">Mắt biếc</a>
+                                </li>
+                                <li class="header_search-history-item">
+                                    <a href="">Xích linh</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header_search-history">
+
+                    </div>
+                    <button class="header_search-btn">
+                        <i class="fas fa-search header_search-btn-icon"></i>
+                    </button>
+                </div>
+
+                <div class="header_navbar">
+                    <ul class="header_navbar-list">
+                        <li class="header_navbar-item header_navbar-item-book">
+                            <a href="#" class="header_navbar-item-link">
+                                Đọc sách
+                            </a>
+                            <div class="header_book">
+                                <ul class="header_book-list">
+                                    <li class="header_book-list-item">
+                                        <a href="" class="header_book-list-item-link">Sách Việt Nam</a>
+                                    </li>
+                                    <li class="header_book-list-item">
+                                        <a href="" class="header_book-list-item-link">Sách nước ngoài</a>
+                                    </li>
+                                </ul>
+                            </div>                            
+
+                        </li>
+                        <li class="header_navbar-item header_navbar-item-music">
+                            <a href="#" class="header_navbar-item-link">
+                                Nghe nhạc
+                            </a>
+
+                            <div class="header_music">
+                                <ul class="header_music-list">
+                                    <li class="header_music-list-item">
+                                        <a href="" class="header_music-list-item-link">Nhạc Việt Nam</a>
+                                    </li>
+                                    <li class="header_music-list-item">
+                                        <a href="" class="header_music-list-item-link">Nhạc nước ngoài</a>
+                                    </li>
+                                </ul>
+                               
+                            </div>                            
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header_btn">
+                    <button class="header_btn-sign-in btn">Đăng nhập</button>
+                    <button class="header_btn-sign-up btn">Đăng ký</button>
+
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="./assets/img/slide1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide4.jpg" alt="">
+                </div>
+
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+                
+
+           
+            
+        </div>
+
+        <div class="container">
+            <h3 class="web-content_heading">Sách bạn nên đọc</h3>
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://upload.wikimedia.org/wikipedia/vi/9/92/Mat_Biec.gif);"></div>
+                            <div class="book-item_name">Mắt biếc</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nguyễn Nhật Ánh</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://toplist.vn/images/800px/toi-thay-hoa-vang-tren-co-xanh-372236.jpg);"></div>
+                            <div class="book-item_name">Tôi thấy hoa vàng trên cỏ xanh</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nguyễn Nhật Ánh</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(http://isach.info/images/story/cover/di_qua_hoa_cuc__nguyen_nhat_anh.jpg);"></div>
+                            <div class="book-item_name">Đi qua hoa cúc</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nguyễn Nhật Ánh</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://cf.shopee.vn/file/b7f6522b239f46875eb0386737200894);"></div>
+                            <div class="book-item_name">Đảo mộng mơ</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nguyễn Nhật Ánh</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://nhungcuonsachhay.com/wp-content/uploads/2021/05/Thang-quy-nho-Nguyen-Nhat-Anh.jpg);"></div>
+                            <div class="book-item_name">Thằng quỷ nhỏ</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nguyễn Nhật Ánh</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://cungdocsach.vn/wp-content/uploads/2019/10/Harry-potter-v%C3%A0-h%C3%B2n-%C4%91%C3%A1-ph%C3%B9-th%E1%BB%A7y.gif);"></div>
+                            <div class="book-item_name">Harry Potter và Hòn đá phù thủy</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">J.K. Rowling</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://upload.wikimedia.org/wikipedia/vi/archive/8/88/20210321032329%21Harry_Potter_v%C3%A0_Chi%E1%BA%BFc_c%E1%BB%91c_l%E1%BB%ADa_b%C3%ACa.jpg);"></div>
+                            <div class="book-item_name">Harry Potter và Chiếc cốc lửa</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">J.K. Rowling</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://upload.wikimedia.org/wikipedia/vi/archive/7/74/20210321032501%21Harry_Potter_v%C3%A0_H%E1%BB%99i_ph%C6%B0%E1%BB%A3ng_ho%C3%A0ng.jpg);"></div>
+                            <div class="book-item_name">Harry Potter và Hội phượng hoàng</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">J.K. Rowling</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://vcdn.tikicdn.com/media/catalog/product/n/h/nha-gia-kim.u84.d20161102.t102644.515752.jpg);"></div>
+                            <div class="book-item_name">Nhà giả kim</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Paulo Coelho</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+                                </span>
+                                <div class="book-item_action_rating">
+                                    <input type="radio" name="rate" id="rate-5">
+                                    <label class ="fas fa-star" for="rate-5"></label>
+                                    <input type="radio" name="rate" id="rate-4">
+                                    <label class ="fas fa-star" for="rate-4"></label>
+                                    <input type="radio" name="rate" id="rate-3">
+                                    <label class ="fas fa-star" for="rate-3"></label>
+                                    <input type="radio" name="rate" id="rate-2">
+                                    <label class ="fas fa-star" for="rate-2"></label>
+                                    <input type="radio" name="rate" id="rate-1">
+                                    <label class ="fas fa-star" for="rate-1"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-eye book-item_seen-icon"></i>
+                                12 lượt xem
+                            </div>
+
+                        </a>
+
+
+                    </div>
+       
+                    
+                </div>
+            </div>
+            <h3 class="web-content_heading">Nhạc bạn nên nghe</h3>
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://avatar-nct.nixcdn.com/song/2019/08/19/d/e/0/d/1566147959020_640.jpg);"></div>
+                            <div class="book-item_name">Xích linh</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Tác giả</span>
+                                <span class="book-item_author_name">Nhạc tiktok</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <div class="music-item_action_rating">
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-music book-item_seen-icon"></i>
+                                24 lượt nghe
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://file.vfo.vn/hinh/2018/05/hinh-ve-tranh-ve-my-nhan-dep-nhat-my-nhan-co-trang-trung-quoc-13.png);"></div>
+                            <div class="book-item_name">Nhạc đàn tranh thư giãn</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Thể loại</span>
+                                <span class="book-item_author_name">Nhạc không lời</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+                                </span>
+                                <div class="music-item_action_rating">
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-music book-item_seen-icon"></i>
+                                24 lượt nghe
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <div class="col l-2-4">
+                        <a href="#" class="book-item">
+                            <div class="book-item_img" style="background-image: url(https://i.pinimg.com/originals/0f/13/26/0f1326c13552887d8f212817001340ad.png);"></div>
+                            <div class="book-item_name">Nhạc đàn piano thư giãn</div>
+                            <div class="book-item_author">
+                                <span class="book-item_author-tittle">Thể loại</span>
+                                <span class="book-item_author_name">Nhạc không lời</span>
+                            </div>
+                            <div class="book-item_action">
+                                <span class="book-item_action_like">
+                                    <i class="fas fa-heart"></i>
+
+                                </span>
+                                <div class="music-item_action_rating">
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star music-item_action_rating--gold"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="book-item_seen">
+                                <i class="fas fa-music book-item_seen-icon"></i>
+                                24 lượt nghe
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>     
+            <h3 class="web-content_heading"></h3>   
+        </div>
+
+        <footer class="footer">
+            <div class="footer_bottom">
+                <span class="footer_heading">Nhóm 17: Website đọc sách trực tuyến kết hợp với nghe nhạc thư giãn trong lúc đọc
+                </span>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="footer_menber-item col l-4">
+                            <a href="https://www.facebook.com/nguyentranhoang.loi/" class="footer_menber-item-link">Nguyễn Trần Hoàng Lợi <br> 19520152 </a>
+                        </div>
+                        <div class="footer_menber-item col l-4">
+                            <a href="https://www.facebook.com/anhkhoa240601" class="footer_menber-item-link">Đặng Trần Anh Khoa <br> 19520629 </a>
+                        </div>
+                        <div class="footer_menber-item col l-4">
+                            <a href="https://www.facebook.com/khanhduy912" class="footer_menber-item-link">Đặng Ngọc Khánh Duy <br> 18520656 </a>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+                <p class="footer_text">Địa chỉ: Khu phố 6, phường Linh Trung, quận Thủ Đức, TP Hồ Chí Minh. Tổng đài hỗ trợ: 0702817585. Email: 19520152@gm.uit.edu.vn <br>
+                    Design & Front-end: Nguyễn Trần Hoàng Lợi <br>
+                    Design & Back-end: Đặng Trần Anh Khoa <br>
+                    Front-end & Back-end: Đặng Ngọc Khánh Duy <br>
+                    © 2021 - Bản quyền thuộc về Công ty TNHH LKD
+                
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <div class="modal-login">
+        <div class="modal-login_container">
+            <div class="modal-login_close">
+                <i class="fas fa-times modal-login_close-icon"></i>
+            </div>
+            <header class="modal-login_header">
+                Đăng nhập tài khoản
+            </header>
+            <div class="modal-login_body">
+
+                <form action="" method="POST" class="form" id="form-2">
+                        
+                    <div class="form-group">
+                      <label for="email" class="form-label">Email</label>
+                      <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="password" class="form-label">Mật khẩu</label>
+                      <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <button class="form-submit">Đăng nhập</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-register">
+        <div class="modal-register_container">
+            <div class="modal-register_close">
+                <i class="fas fa-times modal-register_close-icon"></i>
+            </div>
+            <header class="modal-register_header">
+                Đăng ký tài khoản
+            </header>
+            <div class="modal-register_body">
+
+                <form action="" method="POST" class="form" id="form-1">
+            
+                    <div class="form-group">
+                      <label for="fullname" class="form-label">Tên đầy đủ</label>
+                      <input id="fullname" name="fullname" type="text" placeholder="VD: Sơn Đặng" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="email" class="form-label">Email</label>
+                      <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="password" class="form-label">Mật khẩu</label>
+                      <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                      <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                      <span class="form-message"></span>
+                    </div>
+            
+                    <button class="form-submit">Đăng ký</button>
+                  </form>
+            
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+          // Mong muốn của chúng ta
+          Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isRequired('#fullname', 'Vui lòng nhập tên đầy đủ của bạn'),
+              Validator.isEmail('#email'),
+              Validator.minLength('#password', 6),
+              Validator.isRequired('#password_confirmation'),
+              Validator.isConfirmed('#password_confirmation', function () {
+                return document.querySelector('#form-1 #password').value;
+              }, 'Mật khẩu nhập lại không chính xác')
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+    
+    
+          Validator({
+            form: '#form-2',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isEmail('#email'),
+              Validator.minLength('#password', 6),
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+        });
+    
+    </script>
+
+    <script>
+        // Hiệu ứng thả tym yêu thích
+        const likedBtn = document.querySelectorAll(".book-item_action_like");
+        var elements = Array.from(likedBtn)
+
+        elements.forEach(function liked(e) {
+            e.addEventListener('click', () => {
+            if (e.classList.contains("liked")) {
+                e.classList.remove("liked");
+            } else {
+                e.classList.add("liked");
+            }
+        });
+    })
+
+    </script>
+
+<!--  -->
+    <!-- Hiệu ứng chuyển trang slideshow sau 5s -->
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000);
+    
+    </script>
+    
+
+
+
+    <!-- JS Đăng nhập, đăng ký -->
+    <script src="./validator.js"> 
+    </script>
+    <!--  -->
+
+    <script>
+        const modalLogin = document.querySelector(".modal-login")
+        const modalLoginClose = document.querySelector(".modal-login_close")
+        const modalLoginContainer = document.querySelector(".modal-login_container")
+        const loginBtn = document.querySelector(".header_btn-sign-in")
+
+        function showModalLogin() {
+            modalLogin.classList.add("open")
+        }
+
+        function hideModalLogin() {
+            modalLogin.classList.remove("open")
+        }
+
+        loginBtn.addEventListener('click', showModalLogin)
+        loginBtn.addEventListener('click', hideModalregister)
+        modalLoginClose.addEventListener('click', hideModalLogin)
+        modalLogin.addEventListener('click', hideModalLogin)
+        modalLoginContainer.addEventListener('click', function(e) {
+            e.stopPropagation()
+        })
+
+
+
+        const modalregister = document.querySelector(".modal-register")
+        const modalregisterClose = document.querySelector(".modal-register_close")
+        const modalregisterContainer = document.querySelector(".modal-register_container")
+        const registerBtn = document.querySelector(".header_btn-sign-up")
+
+        function showModalregister() {
+            modalregister.classList.add("open")
+        }
+
+        function hideModalregister() {
+            modalregister.classList.remove("open")
+        }
+
+        registerBtn.addEventListener('click', showModalregister)
+        registerBtn.addEventListener('click', hideModalLogin)
+        modalregisterClose.addEventListener('click', hideModalregister)
+        modalregister.addEventListener('click', hideModalregister)
+        modalregisterContainer.addEventListener('click', function(e) {
+            e.stopPropagation()
+        })
+
+    </script>
+
+
+</body>
+</html>

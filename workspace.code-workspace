@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\Levin-shop"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Read_and_Chill"
+	}
+}
