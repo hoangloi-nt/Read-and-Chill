@@ -949,3 +949,49 @@
     padding: 10px;
     font-size: 1.8rem;
 }
+
+/* Khung lọc thông tin */
+
+.category {
+    background-color: #FFA6D5;
+    margin: 10px 10px 0 0;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.category_book-type {
+    font-size: 1.8rem;
+    color: #D62AD0;
+    font-weight: 600;
+    padding: 10px;
+    line-height: 3rem;
+}
+
+.category_book-type-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.category_book-type-list-item {
+    padding: 4px 6px;
+
+}
+
+
+.category_book-type-list-item-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+    padding: 1px 4px;
+}
+
+.category_book-type-list-item-link:hover {
+    background-color: #FBC7F7;
+    color: #D62AD0;
+    border-radius: 10px;
+
+}
